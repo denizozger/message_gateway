@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+a_1_c.py	../a_1_c.py	1;"	kind:file	line:1
+a_1_p.py	../a_1_p.py	1;"	kind:file	line:1
+body	../a_1_p.py	/^                      body=message)$/;"	kind:variable	line:15
+callback	../a_1_c.py	/^def callback(ch, method, properties, body):$/;"	kind:function	line:20
+channel	../a_1_c.py	/^channel = connection.channel()$/;"	kind:variable	line:6
+channel	../a_1_p.py	/^channel = connection.channel()$/;"	kind:variable	line:7
+connection	../a_1_c.py	/^connection = pika.BlockingConnection(pika.ConnectionParameters($/;"	kind:variable	line:4
+connection	../a_1_p.py	/^connection = pika.BlockingConnection(pika.ConnectionParameters($/;"	kind:variable	line:5
+exchange_type	../a_1_c.py	/^                         exchange_type='fanout')$/;"	kind:variable	line:9
+exchange_type	../a_1_p.py	/^                         exchange_type='fanout')$/;"	kind:variable	line:10
+host	../a_1_c.py	/^    host='localhost'))$/;"	kind:variable	line:5
+host	../a_1_p.py	/^        host='localhost'))$/;"	kind:variable	line:6
+message	../a_1_p.py	/^message = ""$/;"	kind:variable	line:12
+pika	../a_1_c.py	/^import pika$/;"	kind:namespace	line:2
+pika	../a_1_p.py	/^import pika$/;"	kind:namespace	line:2
+queue	../a_1_c.py	/^                   queue=queue_name)$/;"	kind:variable	line:15
+queue_name	../a_1_c.py	/^queue_name = result.method.queue$/;"	kind:variable	line:12
+result	../a_1_c.py	/^result = channel.queue_declare(exclusive=True)$/;"	kind:variable	line:11
+routing_key	../a_1_p.py	/^                      routing_key='',$/;"	kind:variable	line:14
+sys	../a_1_p.py	/^import sys$/;"	kind:namespace	line:3
